@@ -1,0 +1,46 @@
+{
+    "name": "horizon-legacy",
+    "displayName": "Horizon Legacy",
+    "description": "Original Horizon VS Code theme copy",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Horizon Legacy",
+                "uiTheme": "vs-dark",
+                "path": "./themes/horizon.json"
+            },
+            {
+                "label": "Horizon Legacy Italic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/horizon-italic.json"
+            },
+            {
+                "label": "Horizon Legacy Bright",
+                "uiTheme": "vs-dark",
+                "path": "./themes/horizon-bright.json"
+            },
+            {
+                "label": "Horizon Legacy Bright Italic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/horizon-bright-italic.json"
+            },
+            {
+                "label": "Horizon Legacy Bright Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/horizon-bright-bold.json"
+            },
+            {
+                "label": "Horizon Legacy Bold",
+                "uiTheme": "vs-dark",
+                "path": "./themes/horizon-bold.json"
+            }
+        ]
+    }
+}
